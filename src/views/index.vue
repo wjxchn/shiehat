@@ -765,6 +765,7 @@
                                     <li><input type="checkbox" id="db-filter-school-7" :value="40" v-model="dbFilter.school"><label for="db-filter-school-7">{{ schoolConfig[40].name }}</label></li>
                                     <li><input type="checkbox" id="db-filter-school-8" :value="42" v-model="dbFilter.school"><label for="db-filter-school-8">{{ schoolConfig[42].name }}</label></li>
                                     <li><input type="checkbox" id="db-filter-school-9" :value="49" v-model="dbFilter.school"><label for="db-filter-school-9">{{ schoolConfig[49].name }}</label></li>
+                                    <li><input type="checkbox" id="db-filter-school-10" :value="100" v-model="dbFilter.school"><label for="db-filter-school-10">{{ schoolConfig[100].name }}</label></li>
                                 </ul>
                             </section>
                             <section>
@@ -811,7 +812,7 @@
         return Math.random() > .5 ? -1 : 1;
     }
 
-    const th_v = '4.1.1 (Build 20210913)';
+    const th_v = '5.1.1 (Build 20210913)';
 
     var dbFilter = {
         school: [],
