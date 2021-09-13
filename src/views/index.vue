@@ -647,14 +647,6 @@
                                     <p>张光正</p>
                                 </Col>
                             </Row>
-                            <Row>
-                                <Col span="6">
-                                    <p>最新版开发</p>
-                                </Col>
-                                <Col span="18">
-                                    <p><span>王嘉鑫（网站出现bug请联系QQ：1822630963）张潇菡 罗子欣</span></p>
-                                </Col>
-                            </Row>
                         </div>
                         <p id="th-main-version">{{ version }}</p>
                     </div>
@@ -819,7 +811,7 @@
         return Math.random() > .5 ? -1 : 1;
     }
 
-    const th_v = '4.1.1 (Build 20200901)';
+    const th_v = '4.1.1 (Build 20210913)';
 
     var dbFilter = {
         school: [],
@@ -1089,7 +1081,7 @@
         created () {
             this.mode = 'choose';
             this.isTutorial = true;
-            this.centerText = '欢迎 2020 级士谔 er 来到书院！这一次，学业导师由你来 PICK*';
+            this.centerText = '欢迎 2021 级士谔 er 来到书院！这一次，学业导师由你来 PICK*';
             for (var i = 0; i < tutorList.data.length; i++) {
                 this.order.push(i);
             }
