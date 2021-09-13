@@ -49,11 +49,21 @@ let schoolConfig = {
         color: '#43a047',
         short: '网安'
     },
+    '42': {
+        name: '人工智能研究院',
+        color: '#ab34ef',
+        short: '人工智能'
+    },    
     '49': {
-        name: '微电子学院',
-        color: '#abcdef',
+        name: '集成电路科学与工程学院',
+        color: '#ab67ef',
         short: '微电子'
-    }
+    },
+    '100': {
+        name: '前沿科学技术创新研究院',
+        color: '#ab9aef',
+        short: '前沿科学'
+    },
 };
 
 export default schoolConfig;

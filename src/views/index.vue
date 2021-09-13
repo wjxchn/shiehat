@@ -769,9 +769,10 @@
                                     <li><input type="checkbox" id="db-filter-school-3" :value="6" v-model="dbFilter.school"><label for="db-filter-school-3">{{ schoolConfig[6].name }}</label></li>
                                     <li><input type="checkbox" id="db-filter-school-4" :value="17" v-model="dbFilter.school"><label for="db-filter-school-4">{{ schoolConfig[17].name }}</label></li>
                                     <li><input type="checkbox" id="db-filter-school-5" :value="21" v-model="dbFilter.school"><label for="db-filter-school-5">{{ schoolConfig[21].name }}</label></li>
-                                    <li><input type="checkbox" id="db-filter-school-6" :value="40" v-model="dbFilter.school"><label for="db-filter-school-6">{{ schoolConfig[40].name }}</label></li>
-                                    <li><input type="checkbox" id="db-filter-school-7" :value="49" v-model="dbFilter.school"><label for="db-filter-school-7">{{ schoolConfig[49].name }}</label></li>
-                                    <li><input type="checkbox" id="db-filter-school-8" :value="'Other'" v-model="dbFilter.school"><label for="db-filter-school-8">其他</label></li>
+                                    <li><input type="checkbox" id="db-filter-school-6" :value="38" v-model="dbFilter.school"><label for="db-filter-school-6">{{ schoolConfig[38].name }}</label></li>
+                                    <li><input type="checkbox" id="db-filter-school-7" :value="40" v-model="dbFilter.school"><label for="db-filter-school-7">{{ schoolConfig[40].name }}</label></li>
+                                    <li><input type="checkbox" id="db-filter-school-8" :value="42" v-model="dbFilter.school"><label for="db-filter-school-8">{{ schoolConfig[42].name }}</label></li>
+                                    <li><input type="checkbox" id="db-filter-school-9" :value="49" v-model="dbFilter.school"><label for="db-filter-school-9">{{ schoolConfig[49].name }}</label></li>
                                 </ul>
                             </section>
                             <section>
@@ -928,7 +929,7 @@
                 }
             },
             getSrc (imgName) {
-                return 'https://shiehat-1302789390.file.myqcloud.com/img/' + imgName;
+                return 'https://xzx-1305956931.file.myqcloud.com/img/' + imgName;
             },
             handleChangeSize (event) {
                 this.dbListSm = !this.dbListSm;
@@ -994,7 +995,7 @@
                 }
             },
             avatarSrc () {
-                return 'https://shiehat-1302789390.file.myqcloud.com/img/' + this.avatarName;
+                return 'https://xzx-1305956931.file.myqcloud.com/img/' + this.avatarName;
             },
             contactSpan () {
                 return this.website ? '12' : '24';
